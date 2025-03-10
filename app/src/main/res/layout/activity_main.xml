@@ -90,7 +90,7 @@
             android:layout_height="wrap_content"
             android:text="Dodatkowe opcje:"
             android:textSize="20dp"
-            android:textColor="#F70D1A"
+            android:textColor="#05480D"
             android:layout_marginRight="10dp"
             android:textStyle="bold"/>
 
@@ -112,4 +112,22 @@
             android:textStyle="bold"
             android:textSize="15dp"/>
     </LinearLayout>
-  </LinearLayout>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#F70D1A"
+        android:text="Złóż zamówienie"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#05480D"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:id="@+id/podsumowanie"/>
+
+</LinearLayout>
